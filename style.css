@@ -1,0 +1,215 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.head{
+    width: 100%;
+    height: 850px;
+    background-image: url(./media/heading.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+
+}
+
+.head-contant{
+    padding: 200px 100px;
+}
+
+
+.head h1 {
+    color: white;
+    font-size: 80px;
+  letter-spacing: 2px;
+  
+}
+.head p {
+    
+    color: white;
+    font-size: 40px;
+   letter-spacing: 2px;
+   line-height: 50px;
+
+}
+/* all btn style start */
+.btn{
+   border-radius: 0px;
+    /* background-position: center; */
+   width: 15%;
+   height: 50px;
+   margin-top: 30px;
+   margin-right: 100px;
+   margin-left: auto;
+   padding: 6px;
+font-size: 13px;
+background-color:#FDB467 ;
+font-size: 12px;
+position: absolute;
+}
+
+
+
+.btngo{
+    position: sticky;
+    height: 50px;
+    background-color:#FDB467 ;
+    width: 200px;
+    margin-top: 25px;
+}
+
+.joine{
+    position: sticky;
+    height: 50px;
+    background-color:#FDB467 ;
+    width: 200px;
+    margin: 25px 5px 0px 50px;
+}
+/* button style end  */
+
+
+/* About section style start  */
+.information{
+    width: 100%;
+    height: 850px;
+}
+.information .about_us{
+    background-color:#272624 ;
+    width: 50%;
+    float: left;
+    height: 850px;
+    text-align: center;
+    color: white;
+    
+}
+
+.information .about_us .about-text{
+    width: 80%;
+    padding-top: 50% ;
+    
+    margin: auto;
+}
+
+.information .reg{
+    width: 50%;
+    background-color:#1E1D1B ;
+    float: right;
+    height: 850px;
+    text-align: center;
+}
+.information .about_us h2{
+   
+    font-size: 40px;
+}
+.information .about_us p{
+    font-size:20px;
+   
+} 
+.information .reg .reg_content {
+  
+   color: white;
+   letter-spacing: 2px;
+   line-height: 50px;
+   width: 80%;
+   padding-top: 50% ;
+   margin: auto;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+}
+.information .reg .reg_content h2{
+height: 50px;
+font-size: 30px;
+text-transform: uppercase;
+
+
+}
+.information .reg .reg_content h4{
+font-size:20px ;
+
+}
+.information .reg .reg_content h5{
+    font-size: 18px;
+}
+
+
+/* about section style end  */
+
+
+
+
+/* workshop section style start  */
+
+
+.workshop{
+    width: 100%;
+    height: 800px;
+} 
+.workshop .wspleft{
+    width: 40%;
+    background-color: #EEE9E5;
+    text-align: center;
+    height: 800px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    float: left;
+    
+}
+.workshop .wspleft .leftcontent{
+/* background-position: center; */
+font-weight: 20px;
+padding: 100px 0px 0px 30px;
+background-size: auto;
+}
+
+.workshop .rightcontent{
+    height: 100%;
+    width: 60%;
+    float: right;
+}
+.workshop .rightcontent img{
+    height: 800px;
+    width: 100%;
+}
+
+
+/* membership section style start  */
+
+.mssection{
+    width: 100%;
+    height: 800px;
+}
+
+.mssection .mssectionright {
+    float: left;
+    width: 60%;
+   
+}
+.mssection .mssectionright img{
+    height: 800px;
+   
+    
+    
+}
+.mssection .masectionleft {
+   float: right;
+   background-color: #272624;
+   width: 40%;
+   height: 800px;
+   color: rgb(252, 252, 252);
+   
+}
+
+
+.mssection .masectionleft .leftcontentms h1 {
+   text-transform: uppercase;
+   margin: 100px 5px 0px 50px;
+   line-height: 50px;
+   
+}
+.mssection .masectionleft .leftcontentms p {
+    margin: 25px 5px 0px 50px;
+    padding-right: 20px;
+}
+
+

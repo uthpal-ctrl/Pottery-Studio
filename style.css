@@ -16,6 +16,7 @@
 
 .head-contant{
     padding: 200px 100px;
+    width: 70%;
 }
 
 
@@ -87,7 +88,6 @@ position: absolute;
 .information .about_us .about-text{
     width: 80%;
     padding-top: 50% ;
-    
     margin: auto;
 }
 
@@ -98,16 +98,26 @@ position: absolute;
     height: 850px;
     text-align: center;
 }
+
+
+
+
 .information .about_us h2{
-   
-    font-size: 40px;
+font-size: 40px;
 }
+
+
+
+
 .information .about_us p{
     font-size:20px;
    
 } 
+
+
+
+
 .information .reg .reg_content {
-  
    color: white;
    letter-spacing: 2px;
    line-height: 50px;
@@ -117,19 +127,26 @@ position: absolute;
    font-family: 'Times New Roman', Times, serif;
    text-align: center;
 }
+
+
+
+
 .information .reg .reg_content h2{
 height: 50px;
 font-size: 30px;
 text-transform: uppercase;
-
-
 }
+
+
+
 .information .reg .reg_content h4{
 font-size:20px ;
-
 }
+
+
+
 .information .reg .reg_content h5{
-    font-size: 18px;
+font-size: 18px;
 }
 
 
@@ -145,71 +162,154 @@ font-size:20px ;
     width: 100%;
     height: 800px;
 } 
+
+
+
+
 .workshop .wspleft{
     width: 40%;
+    height: 800px;
     background-color: #EEE9E5;
     text-align: center;
-    height: 800px;
     letter-spacing: 2px;
     line-height: 30px;
     float: left;
-    
-}
-.workshop .wspleft .leftcontent{
-/* background-position: center; */
-font-weight: 20px;
-padding: 100px 0px 0px 30px;
-background-size: auto;
+    padding-right: 50px; 
 }
 
+
+
+
+.workshop .wspleft .leftcontent{
+font-weight: 20px;
+padding: 100px 50px 0px 30px;
+}
+
+
+
+
 .workshop .rightcontent{
-    height: 100%;
-    width: 60%;
+    height: 800px;
+    width: 55%;
     float: right;
 }
 .workshop .rightcontent img{
-    height: 800px;
     width: 100%;
+    height: 800px;
 }
 
+
+/* workshop section style end  */
 
 /* membership section style start  */
 
-.mssection{
-    width: 100%;
-    height: 800px;
-}
 
-.mssection .mssectionright {
+.membershipmain{
+    width: 100%;
+    height: 600px;
+}
+.membershipmain .membershipleft{
     float: left;
     width: 60%;
-   
-}
-.mssection .mssectionright img{
-    height: 800px;
-   
-    
-    
-}
-.mssection .masectionleft {
-   float: right;
-   background-color: #272624;
-   width: 40%;
-   height: 800px;
-   color: rgb(252, 252, 252);
-   
+    height: 600px;
 }
 
 
-.mssection .masectionleft .leftcontentms h1 {
-   text-transform: uppercase;
-   margin: 100px 5px 0px 50px;
-   line-height: 50px;
-   
-}
-.mssection .masectionleft .leftcontentms p {
-    margin: 25px 5px 0px 50px;
-    padding-right: 20px;
+
+.membershipmain .membershipright{
+background-color: #272624;
+float: right;
+width: 40%;
+height: 600px;
+letter-spacing: 2px;
+background-position: center;
 }
 
 
+
+.membershipmain .membershipleft img{
+width: 100%;
+height: 600px;
+}
+
+
+
+.membershipmain .membershipright .membershipcontent{
+    height: 300px;
+    width: 40%;
+    padding: 120px  30px;
+    color: white;
+    background-position: center;
+} 
+.membershipmain .membershipright .membershipcontent h1{
+margin: 20px 0px 20px 0px;
+}
+
+
+/* membership section style end  */
+/* review menu style start  */
+
+.reviewmain{
+    background-image: url(./media/review.png);
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: cover;
+}
+
+
+
+.reviewmain .studentcontent{
+    width: 40%;
+    height: 400px;
+    background-color: white;
+    margin: 200px 200px ;
+    position: absolute;
+}
+.reviewmain .studentcontent .student-text{
+    width: 80%;
+    padding: 100px 90px 0px 70px;
+}
+
+
+
+.reviewmain .studentcontent .student-text p{
+    padding: 20px 0px;
+}
+
+
+
+/* review menu style end  */
+
+/* footer section style start  */
+.footersection{
+    width: 100%;
+    height: 600px;
+    background-color: #1E1D1B;
+    color: white;
+    text-align: center;
+    padding: 250px 0px 0px 200px;
+    background-position: center; 
+}
+
+
+
+.footersection .footercontent {
+width:50%;
+height: 300px;
+background-position: center;
+padding: 100px 100px 0px 100px;
+}
+.footersection .footercontent p { 
+margin-top: 70px;
+
+}
+ .footersection .form{
+ width: 30%;
+background-position: center;
+margin-left: 200px;
+padding-bottom: 100px;
+ }
+
+ /* footer section end   */
